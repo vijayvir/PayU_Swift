@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D22CFE1E29FA10001AF2B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D22CFD1E29FA10001AF2B1 /* AppDelegate.swift */; };
+		18D22D001E29FA10001AF2B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D22CFF1E29FA10001AF2B1 /* ViewController.swift */; };
+		18D22D031E29FA10001AF2B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D011E29FA10001AF2B1 /* Main.storyboard */; };
+		18D22D051E29FA10001AF2B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D041E29FA10001AF2B1 /* Assets.xcassets */; };
+		18D22D081E29FA10001AF2B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D061E29FA10001AF2B1 /* LaunchScreen.storyboard */; };
+		18D22D301E29FA92001AF2B1 /* SomeObjectiveCFilesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D2F1E29FA92001AF2B1 /* SomeObjectiveCFilesViewController.m */; };
+		18D22D321E29FBBD001AF2B1 /* StructToJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D311E29FBBD001AF2B1 /* StructToJson.swift */; };
+		18D22D351E2A1D84001AF2B1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D22D341E2A1D84001AF2B1 /* libz.tbd */; };
+		18D22DAE1E2A1E02001AF2B1 /* PayUCBInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D3D1E2A1E01001AF2B1 /* PayUCBInfo.plist */; };
+		18D22DAF1E2A1E02001AF2B1 /* PUCBAllPaymentOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D3F1E2A1E01001AF2B1 /* PUCBAllPaymentOption.xib */; };
+		18D22DB01E2A1E02001AF2B1 /* PUCBApproveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D401E2A1E01001AF2B1 /* PUCBApproveView.xib */; };
+		18D22DB11E2A1E02001AF2B1 /* PUCBBankPageLoading.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D411E2A1E01001AF2B1 /* PUCBBankPageLoading.xib */; };
+		18D22DB21E2A1E02001AF2B1 /* PUCBFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D441E2A1E01001AF2B1 /* PUCBFooterView.xib */; };
+		18D22DB31E2A1E02001AF2B1 /* PUCBHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D451E2A1E01001AF2B1 /* PUCBHeaderView.xib */; };
+		18D22DB41E2A1E02001AF2B1 /* PUCBImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D461E2A1E01001AF2B1 /* PUCBImages.xcassets */; };
+		18D22DB51E2A1E02001AF2B1 /* PUCBLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D471E2A1E01001AF2B1 /* PUCBLoader.xib */; };
+		18D22DB61E2A1E02001AF2B1 /* PUCBPassowrdWithIncorrectOTPView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D481E2A1E01001AF2B1 /* PUCBPassowrdWithIncorrectOTPView.xib */; };
+		18D22DB71E2A1E02001AF2B1 /* PUCBPasswordNB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D491E2A1E02001AF2B1 /* PUCBPasswordNB.xib */; };
+		18D22DB81E2A1E02001AF2B1 /* PUCBRegenerateOTPView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D4A1E2A1E02001AF2B1 /* PUCBRegenerateOTPView.xib */; };
+		18D22DB91E2A1E02001AF2B1 /* PUCBRegisterOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D4B1E2A1E02001AF2B1 /* PUCBRegisterOption.xib */; };
+		18D22DBA1E2A1E02001AF2B1 /* PUCBUserIdNB.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D4C1E2A1E02001AF2B1 /* PUCBUserIdNB.xib */; };
+		18D22DBB1E2A1E02001AF2B1 /* PUCBWKTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D4E1E2A1E02001AF2B1 /* PUCBWKTest.html */; };
+		18D22DBC1E2A1E02001AF2B1 /* libiOSCustomBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D22D4F1E2A1E02001AF2B1 /* libiOSCustomBrowser.a */; };
+		18D22DBD1E2A1E02001AF2B1 /* libPayU_iOS_CoreSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D22D511E2A1E02001AF2B1 /* libPayU_iOS_CoreSDK.a */; };
+		18D22DBE1E2A1E02001AF2B1 /* PayUSDKInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D691E2A1E02001AF2B1 /* PayUSDKInfo.plist */; };
+		18D22DBF1E2A1E02001AF2B1 /* iOSDefaultActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D731E2A1E02001AF2B1 /* iOSDefaultActivityIndicator.m */; };
+		18D22DC01E2A1E02001AF2B1 /* PUUIEMITopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D761E2A1E02001AF2B1 /* PUUIEMITopView.m */; };
+		18D22DC11E2A1E02001AF2B1 /* PUUIEMITopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D771E2A1E02001AF2B1 /* PUUIEMITopView.xib */; };
+		18D22DC21E2A1E02001AF2B1 /* PUUINBTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D791E2A1E02001AF2B1 /* PUUINBTopView.m */; };
+		18D22DC31E2A1E02001AF2B1 /* PUUIStoredCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D7B1E2A1E02001AF2B1 /* PUUIStoredCardView.m */; };
+		18D22DC41E2A1E02001AF2B1 /* PUUIStoredCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D7C1E2A1E02001AF2B1 /* PUUIStoredCardView.xib */; };
+		18D22DC51E2A1E02001AF2B1 /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D811E2A1E02001AF2B1 /* iCarousel.m */; };
+		18D22DC61E2A1E02001AF2B1 /* PUUIBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D851E2A1E02001AF2B1 /* PUUIBaseVC.m */; };
+		18D22DC71E2A1E02001AF2B1 /* PUUIWrapperKHTabPagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D871E2A1E02001AF2B1 /* PUUIWrapperKHTabPagerVC.m */; };
+		18D22DC81E2A1E02001AF2B1 /* PUUICardOptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D891E2A1E02001AF2B1 /* PUUICardOptionVC.m */; };
+		18D22DC91E2A1E02001AF2B1 /* PUUICCDCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D8B1E2A1E02001AF2B1 /* PUUICCDCVC.m */; };
+		18D22DCA1E2A1E02001AF2B1 /* PUUINBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D8D1E2A1E02001AF2B1 /* PUUINBVC.m */; };
+		18D22DCB1E2A1E02001AF2B1 /* PUUIPaymentOptionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D8F1E2A1E02001AF2B1 /* PUUIPaymentOptionVC.m */; };
+		18D22DCC1E2A1E02001AF2B1 /* PUUIPayUMoneyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D911E2A1E02001AF2B1 /* PUUIPayUMoneyVC.m */; };
+		18D22DCD1E2A1E02001AF2B1 /* PUUIStoredCardCarouselVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D931E2A1E02001AF2B1 /* PUUIStoredCardCarouselVC.m */; };
+		18D22DCE1E2A1E02001AF2B1 /* PUUITabBarTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D951E2A1E02001AF2B1 /* PUUITabBarTopView.m */; };
+		18D22DCF1E2A1E02001AF2B1 /* PUUITabBarTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D961E2A1E02001AF2B1 /* PUUITabBarTopView.xib */; };
+		18D22DD01E2A1E02001AF2B1 /* PUUIWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22D981E2A1E02001AF2B1 /* PUUIWebViewVC.m */; };
+		18D22DD11E2A1E02001AF2B1 /* PUUIAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D991E2A1E02001AF2B1 /* PUUIAssets.xcassets */; };
+		18D22DD21E2A1E02001AF2B1 /* PUUIMainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D22D9C1E2A1E02001AF2B1 /* PUUIMainStoryBoard.storyboard */; };
+		18D22DD31E2A1E02001AF2B1 /* KHTabPagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22DA01E2A1E02001AF2B1 /* KHTabPagerViewController.m */; };
+		18D22DD41E2A1E02001AF2B1 /* KHTabScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22DA21E2A1E02001AF2B1 /* KHTabScrollView.m */; };
+		18D22DD51E2A1E02001AF2B1 /* PUUIConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22DA41E2A1E02001AF2B1 /* PUUIConstants.m */; };
+		18D22DD61E2A1E02001AF2B1 /* PUUIImageConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22DA61E2A1E02001AF2B1 /* PUUIImageConstants.m */; };
+		18D22DD71E2A1E02001AF2B1 /* PUUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22DA81E2A1E02001AF2B1 /* PUUIUtility.m */; };
+		18D22DD81E2A1E02001AF2B1 /* PUUIReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22DAB1E2A1E02001AF2B1 /* PUUIReachability.m */; };
+		18D22DD91E2A1E02001AF2B1 /* UIColor+PUUIColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D22DAD1E2A1E02001AF2B1 /* UIColor+PUUIColor.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D22CFA1E29FA10001AF2B1 /* SampleAppforPayUMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleAppforPayUMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D22CFD1E29FA10001AF2B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18D22CFF1E29FA10001AF2B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18D22D021E29FA10001AF2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D22D041E29FA10001AF2B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D22D071E29FA10001AF2B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D22D091E29FA10001AF2B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D22D2D1E29FA92001AF2B1 /* SampleAppforPayUMoney-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleAppforPayUMoney-Bridging-Header.h"; sourceTree = "<group>"; };
+		18D22D2E1E29FA92001AF2B1 /* SomeObjectiveCFilesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeObjectiveCFilesViewController.h; sourceTree = "<group>"; };
+		18D22D2F1E29FA92001AF2B1 /* SomeObjectiveCFilesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeObjectiveCFilesViewController.m; sourceTree = "<group>"; };
+		18D22D311E29FBBD001AF2B1 /* StructToJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructToJson.swift; sourceTree = "<group>"; };
+		18D22D341E2A1D84001AF2B1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		18D22D391E2A1E01001AF2B1 /* CBConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBConnection.h; sourceTree = "<group>"; };
+		18D22D3A1E2A1E01001AF2B1 /* CBConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBConstant.h; sourceTree = "<group>"; };
+		18D22D3B1E2A1E01001AF2B1 /* CBWKConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBWKConnection.h; sourceTree = "<group>"; };
+		18D22D3C1E2A1E01001AF2B1 /* PayU_CB_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayU_CB_SDK.h; sourceTree = "<group>"; };
+		18D22D3D1E2A1E01001AF2B1 /* PayUCBInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PayUCBInfo.plist; sourceTree = "<group>"; };
+		18D22D3E1E2A1E01001AF2B1 /* PayUCBWebViewResponseDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUCBWebViewResponseDelegate.h; sourceTree = "<group>"; };
+		18D22D3F1E2A1E01001AF2B1 /* PUCBAllPaymentOption.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBAllPaymentOption.xib; sourceTree = "<group>"; };
+		18D22D401E2A1E01001AF2B1 /* PUCBApproveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBApproveView.xib; sourceTree = "<group>"; };
+		18D22D411E2A1E01001AF2B1 /* PUCBBankPageLoading.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBBankPageLoading.xib; sourceTree = "<group>"; };
+		18D22D421E2A1E01001AF2B1 /* PUCBBaseConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUCBBaseConnection.h; sourceTree = "<group>"; };
+		18D22D431E2A1E01001AF2B1 /* PUCBConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUCBConfiguration.h; sourceTree = "<group>"; };
+		18D22D441E2A1E01001AF2B1 /* PUCBFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBFooterView.xib; sourceTree = "<group>"; };
+		18D22D451E2A1E01001AF2B1 /* PUCBHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBHeaderView.xib; sourceTree = "<group>"; };
+		18D22D461E2A1E01001AF2B1 /* PUCBImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PUCBImages.xcassets; sourceTree = "<group>"; };
+		18D22D471E2A1E01001AF2B1 /* PUCBLoader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBLoader.xib; sourceTree = "<group>"; };
+		18D22D481E2A1E01001AF2B1 /* PUCBPassowrdWithIncorrectOTPView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBPassowrdWithIncorrectOTPView.xib; sourceTree = "<group>"; };
+		18D22D491E2A1E02001AF2B1 /* PUCBPasswordNB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBPasswordNB.xib; sourceTree = "<group>"; };
+		18D22D4A1E2A1E02001AF2B1 /* PUCBRegenerateOTPView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBRegenerateOTPView.xib; sourceTree = "<group>"; };
+		18D22D4B1E2A1E02001AF2B1 /* PUCBRegisterOption.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBRegisterOption.xib; sourceTree = "<group>"; };
+		18D22D4C1E2A1E02001AF2B1 /* PUCBUserIdNB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUCBUserIdNB.xib; sourceTree = "<group>"; };
+		18D22D4D1E2A1E02001AF2B1 /* PUCBWebVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUCBWebVC.h; sourceTree = "<group>"; };
+		18D22D4E1E2A1E02001AF2B1 /* PUCBWKTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PUCBWKTest.html; sourceTree = "<group>"; };
+		18D22D4F1E2A1E02001AF2B1 /* libiOSCustomBrowser.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiOSCustomBrowser.a; sourceTree = "<group>"; };
+		18D22D511E2A1E02001AF2B1 /* libPayU_iOS_CoreSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPayU_iOS_CoreSDK.a; sourceTree = "<group>"; };
+		18D22D531E2A1E02001AF2B1 /* CoreTelephony.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTelephony.h; sourceTree = "<group>"; };
+		18D22D541E2A1E02001AF2B1 /* PayU_iOS_CoreSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayU_iOS_CoreSDK.h; sourceTree = "<group>"; };
+		18D22D551E2A1E02001AF2B1 /* PayUConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUConstants.h; sourceTree = "<group>"; };
+		18D22D561E2A1E02001AF2B1 /* PayUCreatePostParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUCreatePostParam.h; sourceTree = "<group>"; };
+		18D22D571E2A1E02001AF2B1 /* PayUCreateRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUCreateRequest.h; sourceTree = "<group>"; };
+		18D22D581E2A1E02001AF2B1 /* PayUDontUseThisClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUDontUseThisClass.h; sourceTree = "<group>"; };
+		18D22D591E2A1E02001AF2B1 /* PayUFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUFileManager.h; sourceTree = "<group>"; };
+		18D22D5A1E2A1E02001AF2B1 /* PayUJSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUJSONParser.h; sourceTree = "<group>"; };
+		18D22D5B1E2A1E02001AF2B1 /* PayUModelCashCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelCashCard.h; sourceTree = "<group>"; };
+		18D22D5C1E2A1E02001AF2B1 /* PayUModelCheckIsDomestic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelCheckIsDomestic.h; sourceTree = "<group>"; };
+		18D22D5D1E2A1E02001AF2B1 /* PayUModelEMI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelEMI.h; sourceTree = "<group>"; };
+		18D22D5E1E2A1E02001AF2B1 /* PayUModelEMIDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelEMIDetails.h; sourceTree = "<group>"; };
+		18D22D5F1E2A1E02001AF2B1 /* PayUModelGetTxnInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelGetTxnInfo.h; sourceTree = "<group>"; };
+		18D22D601E2A1E02001AF2B1 /* PayUModelHashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelHashes.h; sourceTree = "<group>"; };
+		18D22D611E2A1E02001AF2B1 /* PayUModelNetBanking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelNetBanking.h; sourceTree = "<group>"; };
+		18D22D621E2A1E02001AF2B1 /* PayUModelOfferDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelOfferDetails.h; sourceTree = "<group>"; };
+		18D22D631E2A1E02001AF2B1 /* PayUModelOfferStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelOfferStatus.h; sourceTree = "<group>"; };
+		18D22D641E2A1E02001AF2B1 /* PayUModelPaymentParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelPaymentParams.h; sourceTree = "<group>"; };
+		18D22D651E2A1E02001AF2B1 /* PayUModelPaymentRelatedDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelPaymentRelatedDetail.h; sourceTree = "<group>"; };
+		18D22D661E2A1E02001AF2B1 /* PayUModelStoredCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelStoredCard.h; sourceTree = "<group>"; };
+		18D22D671E2A1E02001AF2B1 /* PayUModelVerifyPayment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUModelVerifyPayment.h; sourceTree = "<group>"; };
+		18D22D681E2A1E02001AF2B1 /* PayUReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUReachability.h; sourceTree = "<group>"; };
+		18D22D691E2A1E02001AF2B1 /* PayUSDKInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PayUSDKInfo.plist; sourceTree = "<group>"; };
+		18D22D6A1E2A1E02001AF2B1 /* PayUSharedDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUSharedDataManager.h; sourceTree = "<group>"; };
+		18D22D6B1E2A1E02001AF2B1 /* PayUUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUUtils.h; sourceTree = "<group>"; };
+		18D22D6C1E2A1E02001AF2B1 /* PayUValidations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUValidations.h; sourceTree = "<group>"; };
+		18D22D6D1E2A1E02001AF2B1 /* PayUWebServiceResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUWebServiceResponse.h; sourceTree = "<group>"; };
+		18D22D6E1E2A1E02001AF2B1 /* PayUWebViewResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUWebViewResponse.h; sourceTree = "<group>"; };
+		18D22D6F1E2A1E02001AF2B1 /* PayUWSManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayUWSManager.h; sourceTree = "<group>"; };
+		18D22D721E2A1E02001AF2B1 /* iOSDefaultActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iOSDefaultActivityIndicator.h; sourceTree = "<group>"; };
+		18D22D731E2A1E02001AF2B1 /* iOSDefaultActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iOSDefaultActivityIndicator.m; sourceTree = "<group>"; };
+		18D22D751E2A1E02001AF2B1 /* PUUIEMITopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIEMITopView.h; sourceTree = "<group>"; };
+		18D22D761E2A1E02001AF2B1 /* PUUIEMITopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIEMITopView.m; sourceTree = "<group>"; };
+		18D22D771E2A1E02001AF2B1 /* PUUIEMITopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUUIEMITopView.xib; sourceTree = "<group>"; };
+		18D22D781E2A1E02001AF2B1 /* PUUINBTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUINBTopView.h; sourceTree = "<group>"; };
+		18D22D791E2A1E02001AF2B1 /* PUUINBTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUINBTopView.m; sourceTree = "<group>"; };
+		18D22D7A1E2A1E02001AF2B1 /* PUUIStoredCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIStoredCardView.h; sourceTree = "<group>"; };
+		18D22D7B1E2A1E02001AF2B1 /* PUUIStoredCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIStoredCardView.m; sourceTree = "<group>"; };
+		18D22D7C1E2A1E02001AF2B1 /* PUUIStoredCardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUUIStoredCardView.xib; sourceTree = "<group>"; };
+		18D22D801E2A1E02001AF2B1 /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		18D22D811E2A1E02001AF2B1 /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		18D22D841E2A1E02001AF2B1 /* PUUIBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIBaseVC.h; sourceTree = "<group>"; };
+		18D22D851E2A1E02001AF2B1 /* PUUIBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIBaseVC.m; sourceTree = "<group>"; };
+		18D22D861E2A1E02001AF2B1 /* PUUIWrapperKHTabPagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIWrapperKHTabPagerVC.h; sourceTree = "<group>"; };
+		18D22D871E2A1E02001AF2B1 /* PUUIWrapperKHTabPagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIWrapperKHTabPagerVC.m; sourceTree = "<group>"; };
+		18D22D881E2A1E02001AF2B1 /* PUUICardOptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUICardOptionVC.h; sourceTree = "<group>"; };
+		18D22D891E2A1E02001AF2B1 /* PUUICardOptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUICardOptionVC.m; sourceTree = "<group>"; };
+		18D22D8A1E2A1E02001AF2B1 /* PUUICCDCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUICCDCVC.h; sourceTree = "<group>"; };
+		18D22D8B1E2A1E02001AF2B1 /* PUUICCDCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUICCDCVC.m; sourceTree = "<group>"; };
+		18D22D8C1E2A1E02001AF2B1 /* PUUINBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUINBVC.h; sourceTree = "<group>"; };
+		18D22D8D1E2A1E02001AF2B1 /* PUUINBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUINBVC.m; sourceTree = "<group>"; };
+		18D22D8E1E2A1E02001AF2B1 /* PUUIPaymentOptionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIPaymentOptionVC.h; sourceTree = "<group>"; };
+		18D22D8F1E2A1E02001AF2B1 /* PUUIPaymentOptionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIPaymentOptionVC.m; sourceTree = "<group>"; };
+		18D22D901E2A1E02001AF2B1 /* PUUIPayUMoneyVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIPayUMoneyVC.h; sourceTree = "<group>"; };
+		18D22D911E2A1E02001AF2B1 /* PUUIPayUMoneyVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIPayUMoneyVC.m; sourceTree = "<group>"; };
+		18D22D921E2A1E02001AF2B1 /* PUUIStoredCardCarouselVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIStoredCardCarouselVC.h; sourceTree = "<group>"; };
+		18D22D931E2A1E02001AF2B1 /* PUUIStoredCardCarouselVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIStoredCardCarouselVC.m; sourceTree = "<group>"; };
+		18D22D941E2A1E02001AF2B1 /* PUUITabBarTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUITabBarTopView.h; sourceTree = "<group>"; };
+		18D22D951E2A1E02001AF2B1 /* PUUITabBarTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUITabBarTopView.m; sourceTree = "<group>"; };
+		18D22D961E2A1E02001AF2B1 /* PUUITabBarTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PUUITabBarTopView.xib; sourceTree = "<group>"; };
+		18D22D971E2A1E02001AF2B1 /* PUUIWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIWebViewVC.h; sourceTree = "<group>"; };
+		18D22D981E2A1E02001AF2B1 /* PUUIWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIWebViewVC.m; sourceTree = "<group>"; };
+		18D22D991E2A1E02001AF2B1 /* PUUIAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PUUIAssets.xcassets; sourceTree = "<group>"; };
+		18D22D9C1E2A1E02001AF2B1 /* PUUIMainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PUUIMainStoryBoard.storyboard; sourceTree = "<group>"; };
+		18D22D9F1E2A1E02001AF2B1 /* KHTabPagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHTabPagerViewController.h; sourceTree = "<group>"; };
+		18D22DA01E2A1E02001AF2B1 /* KHTabPagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHTabPagerViewController.m; sourceTree = "<group>"; };
+		18D22DA11E2A1E02001AF2B1 /* KHTabScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHTabScrollView.h; sourceTree = "<group>"; };
+		18D22DA21E2A1E02001AF2B1 /* KHTabScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHTabScrollView.m; sourceTree = "<group>"; };
+		18D22DA31E2A1E02001AF2B1 /* PUUIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIConstants.h; sourceTree = "<group>"; };
+		18D22DA41E2A1E02001AF2B1 /* PUUIConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIConstants.m; sourceTree = "<group>"; };
+		18D22DA51E2A1E02001AF2B1 /* PUUIImageConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIImageConstants.h; sourceTree = "<group>"; };
+		18D22DA61E2A1E02001AF2B1 /* PUUIImageConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIImageConstants.m; sourceTree = "<group>"; };
+		18D22DA71E2A1E02001AF2B1 /* PUUIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIUtility.h; sourceTree = "<group>"; };
+		18D22DA81E2A1E02001AF2B1 /* PUUIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIUtility.m; sourceTree = "<group>"; };
+		18D22DAA1E2A1E02001AF2B1 /* PUUIReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PUUIReachability.h; sourceTree = "<group>"; };
+		18D22DAB1E2A1E02001AF2B1 /* PUUIReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PUUIReachability.m; sourceTree = "<group>"; };
+		18D22DAC1E2A1E02001AF2B1 /* UIColor+PUUIColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PUUIColor.h"; sourceTree = "<group>"; };
+		18D22DAD1E2A1E02001AF2B1 /* UIColor+PUUIColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PUUIColor.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D22CF71E29FA10001AF2B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D22D351E2A1D84001AF2B1 /* libz.tbd in Frameworks */,
+				18D22DBC1E2A1E02001AF2B1 /* libiOSCustomBrowser.a in Frameworks */,
+				18D22DBD1E2A1E02001AF2B1 /* libPayU_iOS_CoreSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D22CF11E29FA10001AF2B1 = {
+			isa = PBXGroup;
+			children = (
+				18D22CFC1E29FA10001AF2B1 /* SampleAppforPayUMoney */,
+				18D22CFB1E29FA10001AF2B1 /* Products */,
+				18D22D331E2A1D84001AF2B1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18D22CFB1E29FA10001AF2B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D22CFA1E29FA10001AF2B1 /* SampleAppforPayUMoney.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D22CFC1E29FA10001AF2B1 /* SampleAppforPayUMoney */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D361E2A1E01001AF2B1 /* PayU */,
+				18D22D311E29FBBD001AF2B1 /* StructToJson.swift */,
+				18D22CFD1E29FA10001AF2B1 /* AppDelegate.swift */,
+				18D22CFF1E29FA10001AF2B1 /* ViewController.swift */,
+				18D22D2E1E29FA92001AF2B1 /* SomeObjectiveCFilesViewController.h */,
+				18D22D2F1E29FA92001AF2B1 /* SomeObjectiveCFilesViewController.m */,
+				18D22D011E29FA10001AF2B1 /* Main.storyboard */,
+				18D22D041E29FA10001AF2B1 /* Assets.xcassets */,
+				18D22D061E29FA10001AF2B1 /* LaunchScreen.storyboard */,
+				18D22D091E29FA10001AF2B1 /* Info.plist */,
+				18D22D2D1E29FA92001AF2B1 /* SampleAppforPayUMoney-Bridging-Header.h */,
+			);
+			path = SampleAppforPayUMoney;
+			sourceTree = "<group>";
+		};
+		18D22D331E2A1D84001AF2B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D341E2A1D84001AF2B1 /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D22D361E2A1E01001AF2B1 /* PayU */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D371E2A1E01001AF2B1 /* CB */,
+				18D22D501E2A1E02001AF2B1 /* SDK */,
+				18D22D701E2A1E02001AF2B1 /* SDKUI */,
+			);
+			path = PayU;
+			sourceTree = "<group>";
+		};
+		18D22D371E2A1E01001AF2B1 /* CB */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D381E2A1E01001AF2B1 /* iOSCustomBrowser */,
+				18D22D4F1E2A1E02001AF2B1 /* libiOSCustomBrowser.a */,
+			);
+			path = CB;
+			sourceTree = "<group>";
+		};
+		18D22D381E2A1E01001AF2B1 /* iOSCustomBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D391E2A1E01001AF2B1 /* CBConnection.h */,
+				18D22D3A1E2A1E01001AF2B1 /* CBConstant.h */,
+				18D22D3B1E2A1E01001AF2B1 /* CBWKConnection.h */,
+				18D22D3C1E2A1E01001AF2B1 /* PayU_CB_SDK.h */,
+				18D22D3D1E2A1E01001AF2B1 /* PayUCBInfo.plist */,
+				18D22D3E1E2A1E01001AF2B1 /* PayUCBWebViewResponseDelegate.h */,
+				18D22D3F1E2A1E01001AF2B1 /* PUCBAllPaymentOption.xib */,
+				18D22D401E2A1E01001AF2B1 /* PUCBApproveView.xib */,
+				18D22D411E2A1E01001AF2B1 /* PUCBBankPageLoading.xib */,
+				18D22D421E2A1E01001AF2B1 /* PUCBBaseConnection.h */,
+				18D22D431E2A1E01001AF2B1 /* PUCBConfiguration.h */,
+				18D22D441E2A1E01001AF2B1 /* PUCBFooterView.xib */,
+				18D22D451E2A1E01001AF2B1 /* PUCBHeaderView.xib */,
+				18D22D461E2A1E01001AF2B1 /* PUCBImages.xcassets */,
+				18D22D471E2A1E01001AF2B1 /* PUCBLoader.xib */,
+				18D22D481E2A1E01001AF2B1 /* PUCBPassowrdWithIncorrectOTPView.xib */,
+				18D22D491E2A1E02001AF2B1 /* PUCBPasswordNB.xib */,
+				18D22D4A1E2A1E02001AF2B1 /* PUCBRegenerateOTPView.xib */,
+				18D22D4B1E2A1E02001AF2B1 /* PUCBRegisterOption.xib */,
+				18D22D4C1E2A1E02001AF2B1 /* PUCBUserIdNB.xib */,
+				18D22D4D1E2A1E02001AF2B1 /* PUCBWebVC.h */,
+				18D22D4E1E2A1E02001AF2B1 /* PUCBWKTest.html */,
+			);
+			path = iOSCustomBrowser;
+			sourceTree = "<group>";
+		};
+		18D22D501E2A1E02001AF2B1 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D511E2A1E02001AF2B1 /* libPayU_iOS_CoreSDK.a */,
+				18D22D521E2A1E02001AF2B1 /* PayU_iOS_CoreSDK */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		18D22D521E2A1E02001AF2B1 /* PayU_iOS_CoreSDK */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D531E2A1E02001AF2B1 /* CoreTelephony.h */,
+				18D22D541E2A1E02001AF2B1 /* PayU_iOS_CoreSDK.h */,
+				18D22D551E2A1E02001AF2B1 /* PayUConstants.h */,
+				18D22D561E2A1E02001AF2B1 /* PayUCreatePostParam.h */,
+				18D22D571E2A1E02001AF2B1 /* PayUCreateRequest.h */,
+				18D22D581E2A1E02001AF2B1 /* PayUDontUseThisClass.h */,
+				18D22D591E2A1E02001AF2B1 /* PayUFileManager.h */,
+				18D22D5A1E2A1E02001AF2B1 /* PayUJSONParser.h */,
+				18D22D5B1E2A1E02001AF2B1 /* PayUModelCashCard.h */,
+				18D22D5C1E2A1E02001AF2B1 /* PayUModelCheckIsDomestic.h */,
+				18D22D5D1E2A1E02001AF2B1 /* PayUModelEMI.h */,
+				18D22D5E1E2A1E02001AF2B1 /* PayUModelEMIDetails.h */,
+				18D22D5F1E2A1E02001AF2B1 /* PayUModelGetTxnInfo.h */,
+				18D22D601E2A1E02001AF2B1 /* PayUModelHashes.h */,
+				18D22D611E2A1E02001AF2B1 /* PayUModelNetBanking.h */,
+				18D22D621E2A1E02001AF2B1 /* PayUModelOfferDetails.h */,
+				18D22D631E2A1E02001AF2B1 /* PayUModelOfferStatus.h */,
+				18D22D641E2A1E02001AF2B1 /* PayUModelPaymentParams.h */,
+				18D22D651E2A1E02001AF2B1 /* PayUModelPaymentRelatedDetail.h */,
+				18D22D661E2A1E02001AF2B1 /* PayUModelStoredCard.h */,
+				18D22D671E2A1E02001AF2B1 /* PayUModelVerifyPayment.h */,
+				18D22D681E2A1E02001AF2B1 /* PayUReachability.h */,
+				18D22D691E2A1E02001AF2B1 /* PayUSDKInfo.plist */,
+				18D22D6A1E2A1E02001AF2B1 /* PayUSharedDataManager.h */,
+				18D22D6B1E2A1E02001AF2B1 /* PayUUtils.h */,
+				18D22D6C1E2A1E02001AF2B1 /* PayUValidations.h */,
+				18D22D6D1E2A1E02001AF2B1 /* PayUWebServiceResponse.h */,
+				18D22D6E1E2A1E02001AF2B1 /* PayUWebViewResponse.h */,
+				18D22D6F1E2A1E02001AF2B1 /* PayUWSManager.h */,
+			);
+			path = PayU_iOS_CoreSDK;
+			sourceTree = "<group>";
+		};
+		18D22D701E2A1E02001AF2B1 /* SDKUI */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D711E2A1E02001AF2B1 /* BusinessLayer */,
+				18D22D741E2A1E02001AF2B1 /* CustomViews */,
+				18D22D7D1E2A1E02001AF2B1 /* Frameworks */,
+				18D22D821E2A1E02001AF2B1 /* Presentation Layer */,
+				18D22D991E2A1E02001AF2B1 /* PUUIAssets.xcassets */,
+				18D22D9A1E2A1E02001AF2B1 /* Resources */,
+				18D22D9D1E2A1E02001AF2B1 /* Utility */,
+			);
+			path = SDKUI;
+			sourceTree = "<group>";
+		};
+		18D22D711E2A1E02001AF2B1 /* BusinessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D721E2A1E02001AF2B1 /* iOSDefaultActivityIndicator.h */,
+				18D22D731E2A1E02001AF2B1 /* iOSDefaultActivityIndicator.m */,
+			);
+			path = BusinessLayer;
+			sourceTree = "<group>";
+		};
+		18D22D741E2A1E02001AF2B1 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D751E2A1E02001AF2B1 /* PUUIEMITopView.h */,
+				18D22D761E2A1E02001AF2B1 /* PUUIEMITopView.m */,
+				18D22D771E2A1E02001AF2B1 /* PUUIEMITopView.xib */,
+				18D22D781E2A1E02001AF2B1 /* PUUINBTopView.h */,
+				18D22D791E2A1E02001AF2B1 /* PUUINBTopView.m */,
+				18D22D7A1E2A1E02001AF2B1 /* PUUIStoredCardView.h */,
+				18D22D7B1E2A1E02001AF2B1 /* PUUIStoredCardView.m */,
+				18D22D7C1E2A1E02001AF2B1 /* PUUIStoredCardView.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		18D22D7D1E2A1E02001AF2B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D7E1E2A1E02001AF2B1 /* ThirdParty */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		18D22D7E1E2A1E02001AF2B1 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D7F1E2A1E02001AF2B1 /* iCarousel */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		18D22D7F1E2A1E02001AF2B1 /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D801E2A1E02001AF2B1 /* iCarousel.h */,
+				18D22D811E2A1E02001AF2B1 /* iCarousel.m */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		18D22D821E2A1E02001AF2B1 /* Presentation Layer */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D831E2A1E02001AF2B1 /* Base ViewController */,
+				18D22D881E2A1E02001AF2B1 /* PUUICardOptionVC.h */,
+				18D22D891E2A1E02001AF2B1 /* PUUICardOptionVC.m */,
+				18D22D8A1E2A1E02001AF2B1 /* PUUICCDCVC.h */,
+				18D22D8B1E2A1E02001AF2B1 /* PUUICCDCVC.m */,
+				18D22D8C1E2A1E02001AF2B1 /* PUUINBVC.h */,
+				18D22D8D1E2A1E02001AF2B1 /* PUUINBVC.m */,
+				18D22D8E1E2A1E02001AF2B1 /* PUUIPaymentOptionVC.h */,
+				18D22D8F1E2A1E02001AF2B1 /* PUUIPaymentOptionVC.m */,
+				18D22D901E2A1E02001AF2B1 /* PUUIPayUMoneyVC.h */,
+				18D22D911E2A1E02001AF2B1 /* PUUIPayUMoneyVC.m */,
+				18D22D921E2A1E02001AF2B1 /* PUUIStoredCardCarouselVC.h */,
+				18D22D931E2A1E02001AF2B1 /* PUUIStoredCardCarouselVC.m */,
+				18D22D941E2A1E02001AF2B1 /* PUUITabBarTopView.h */,
+				18D22D951E2A1E02001AF2B1 /* PUUITabBarTopView.m */,
+				18D22D961E2A1E02001AF2B1 /* PUUITabBarTopView.xib */,
+				18D22D971E2A1E02001AF2B1 /* PUUIWebViewVC.h */,
+				18D22D981E2A1E02001AF2B1 /* PUUIWebViewVC.m */,
+			);
+			path = "Presentation Layer";
+			sourceTree = "<group>";
+		};
+		18D22D831E2A1E02001AF2B1 /* Base ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D841E2A1E02001AF2B1 /* PUUIBaseVC.h */,
+				18D22D851E2A1E02001AF2B1 /* PUUIBaseVC.m */,
+				18D22D861E2A1E02001AF2B1 /* PUUIWrapperKHTabPagerVC.h */,
+				18D22D871E2A1E02001AF2B1 /* PUUIWrapperKHTabPagerVC.m */,
+			);
+			path = "Base ViewController";
+			sourceTree = "<group>";
+		};
+		18D22D9A1E2A1E02001AF2B1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D9B1E2A1E02001AF2B1 /* StoryBoard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18D22D9B1E2A1E02001AF2B1 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D9C1E2A1E02001AF2B1 /* PUUIMainStoryBoard.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		18D22D9D1E2A1E02001AF2B1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D9E1E2A1E02001AF2B1 /* KHTabPagerViewController */,
+				18D22DA31E2A1E02001AF2B1 /* PUUIConstants.h */,
+				18D22DA41E2A1E02001AF2B1 /* PUUIConstants.m */,
+				18D22DA51E2A1E02001AF2B1 /* PUUIImageConstants.h */,
+				18D22DA61E2A1E02001AF2B1 /* PUUIImageConstants.m */,
+				18D22DA71E2A1E02001AF2B1 /* PUUIUtility.h */,
+				18D22DA81E2A1E02001AF2B1 /* PUUIUtility.m */,
+				18D22DA91E2A1E02001AF2B1 /* Reachability */,
+				18D22DAC1E2A1E02001AF2B1 /* UIColor+PUUIColor.h */,
+				18D22DAD1E2A1E02001AF2B1 /* UIColor+PUUIColor.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		18D22D9E1E2A1E02001AF2B1 /* KHTabPagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18D22D9F1E2A1E02001AF2B1 /* KHTabPagerViewController.h */,
+				18D22DA01E2A1E02001AF2B1 /* KHTabPagerViewController.m */,
+				18D22DA11E2A1E02001AF2B1 /* KHTabScrollView.h */,
+				18D22DA21E2A1E02001AF2B1 /* KHTabScrollView.m */,
+			);
+			path = KHTabPagerViewController;
+			sourceTree = "<group>";
+		};
+		18D22DA91E2A1E02001AF2B1 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				18D22DAA1E2A1E02001AF2B1 /* PUUIReachability.h */,
+				18D22DAB1E2A1E02001AF2B1 /* PUUIReachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D22CF91E29FA10001AF2B1 /* SampleAppforPayUMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D22D0C1E29FA10001AF2B1 /* Build configuration list for PBXNativeTarget "SampleAppforPayUMoney" */;
+			buildPhases = (
+				18D22CF61E29FA10001AF2B1 /* Sources */,
+				18D22CF71E29FA10001AF2B1 /* Frameworks */,
+				18D22CF81E29FA10001AF2B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleAppforPayUMoney;
+			productName = SampleAppforPayUMoney;
+			productReference = 18D22CFA1E29FA10001AF2B1 /* SampleAppforPayUMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D22CF21E29FA10001AF2B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = vijayvirSingh;
+				TargetAttributes = {
+					18D22CF91E29FA10001AF2B1 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 6C6G5246SD;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 18D22CF51E29FA10001AF2B1 /* Build configuration list for PBXProject "SampleAppforPayUMoney" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D22CF11E29FA10001AF2B1;
+			productRefGroup = 18D22CFB1E29FA10001AF2B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D22CF91E29FA10001AF2B1 /* SampleAppforPayUMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D22CF81E29FA10001AF2B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D22DB81E2A1E02001AF2B1 /* PUCBRegenerateOTPView.xib in Resources */,
+				18D22DD11E2A1E02001AF2B1 /* PUUIAssets.xcassets in Resources */,
+				18D22DB31E2A1E02001AF2B1 /* PUCBHeaderView.xib in Resources */,
+				18D22DB41E2A1E02001AF2B1 /* PUCBImages.xcassets in Resources */,
+				18D22DBB1E2A1E02001AF2B1 /* PUCBWKTest.html in Resources */,
+				18D22DBE1E2A1E02001AF2B1 /* PayUSDKInfo.plist in Resources */,
+				18D22DB11E2A1E02001AF2B1 /* PUCBBankPageLoading.xib in Resources */,
+				18D22DCF1E2A1E02001AF2B1 /* PUUITabBarTopView.xib in Resources */,
+				18D22DB01E2A1E02001AF2B1 /* PUCBApproveView.xib in Resources */,
+				18D22D081E29FA10001AF2B1 /* LaunchScreen.storyboard in Resources */,
+				18D22DC41E2A1E02001AF2B1 /* PUUIStoredCardView.xib in Resources */,
+				18D22DB61E2A1E02001AF2B1 /* PUCBPassowrdWithIncorrectOTPView.xib in Resources */,
+				18D22DBA1E2A1E02001AF2B1 /* PUCBUserIdNB.xib in Resources */,
+				18D22DC11E2A1E02001AF2B1 /* PUUIEMITopView.xib in Resources */,
+				18D22DAF1E2A1E02001AF2B1 /* PUCBAllPaymentOption.xib in Resources */,
+				18D22D051E29FA10001AF2B1 /* Assets.xcassets in Resources */,
+				18D22DAE1E2A1E02001AF2B1 /* PayUCBInfo.plist in Resources */,
+				18D22DB91E2A1E02001AF2B1 /* PUCBRegisterOption.xib in Resources */,
+				18D22DB71E2A1E02001AF2B1 /* PUCBPasswordNB.xib in Resources */,
+				18D22D031E29FA10001AF2B1 /* Main.storyboard in Resources */,
+				18D22DB51E2A1E02001AF2B1 /* PUCBLoader.xib in Resources */,
+				18D22DB21E2A1E02001AF2B1 /* PUCBFooterView.xib in Resources */,
+				18D22DD21E2A1E02001AF2B1 /* PUUIMainStoryBoard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D22CF61E29FA10001AF2B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D22DC81E2A1E02001AF2B1 /* PUUICardOptionVC.m in Sources */,
+				18D22DCB1E2A1E02001AF2B1 /* PUUIPaymentOptionVC.m in Sources */,
+				18D22DD51E2A1E02001AF2B1 /* PUUIConstants.m in Sources */,
+				18D22DD61E2A1E02001AF2B1 /* PUUIImageConstants.m in Sources */,
+				18D22DCA1E2A1E02001AF2B1 /* PUUINBVC.m in Sources */,
+				18D22DC71E2A1E02001AF2B1 /* PUUIWrapperKHTabPagerVC.m in Sources */,
+				18D22DD91E2A1E02001AF2B1 /* UIColor+PUUIColor.m in Sources */,
+				18D22DC61E2A1E02001AF2B1 /* PUUIBaseVC.m in Sources */,
+				18D22DD71E2A1E02001AF2B1 /* PUUIUtility.m in Sources */,
+				18D22DC31E2A1E02001AF2B1 /* PUUIStoredCardView.m in Sources */,
+				18D22D001E29FA10001AF2B1 /* ViewController.swift in Sources */,
+				18D22CFE1E29FA10001AF2B1 /* AppDelegate.swift in Sources */,
+				18D22DC51E2A1E02001AF2B1 /* iCarousel.m in Sources */,
+				18D22DD81E2A1E02001AF2B1 /* PUUIReachability.m in Sources */,
+				18D22DD31E2A1E02001AF2B1 /* KHTabPagerViewController.m in Sources */,
+				18D22DCD1E2A1E02001AF2B1 /* PUUIStoredCardCarouselVC.m in Sources */,
+				18D22DBF1E2A1E02001AF2B1 /* iOSDefaultActivityIndicator.m in Sources */,
+				18D22DD41E2A1E02001AF2B1 /* KHTabScrollView.m in Sources */,
+				18D22DC21E2A1E02001AF2B1 /* PUUINBTopView.m in Sources */,
+				18D22DC91E2A1E02001AF2B1 /* PUUICCDCVC.m in Sources */,
+				18D22D301E29FA92001AF2B1 /* SomeObjectiveCFilesViewController.m in Sources */,
+				18D22D321E29FBBD001AF2B1 /* StructToJson.swift in Sources */,
+				18D22DD01E2A1E02001AF2B1 /* PUUIWebViewVC.m in Sources */,
+				18D22DC01E2A1E02001AF2B1 /* PUUIEMITopView.m in Sources */,
+				18D22DCC1E2A1E02001AF2B1 /* PUUIPayUMoneyVC.m in Sources */,
+				18D22DCE1E2A1E02001AF2B1 /* PUUITabBarTopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D22D011E29FA10001AF2B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D22D021E29FA10001AF2B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D22D061E29FA10001AF2B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D22D071E29FA10001AF2B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D22D0A1E29FA10001AF2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(OTHER_LDFLAGS)",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18D22D0B1E29FA10001AF2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"$(OTHER_LDFLAGS)",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D22D0D1E29FA10001AF2B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6C6G5246SD;
+				INFOPLIST_FILE = SampleAppforPayUMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleAppforPayUMoney/Release-universal",
+					"$(PROJECT_DIR)/SampleAppforPayUMoney/PayU/CB",
+					"$(PROJECT_DIR)/SampleAppforPayUMoney/PayU/SDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vijayvir.SampleAppforPayUMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleAppforPayUMoney/SampleAppforPayUMoney-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		18D22D0E1E29FA10001AF2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 6C6G5246SD;
+				INFOPLIST_FILE = SampleAppforPayUMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleAppforPayUMoney/Release-universal",
+					"$(PROJECT_DIR)/SampleAppforPayUMoney/PayU/CB",
+					"$(PROJECT_DIR)/SampleAppforPayUMoney/PayU/SDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Vijayvir.SampleAppforPayUMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleAppforPayUMoney/SampleAppforPayUMoney-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D22CF51E29FA10001AF2B1 /* Build configuration list for PBXProject "SampleAppforPayUMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D22D0A1E29FA10001AF2B1 /* Debug */,
+				18D22D0B1E29FA10001AF2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D22D0C1E29FA10001AF2B1 /* Build configuration list for PBXNativeTarget "SampleAppforPayUMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D22D0D1E29FA10001AF2B1 /* Debug */,
+				18D22D0E1E29FA10001AF2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D22CF21E29FA10001AF2B1 /* Project object */;
+}
