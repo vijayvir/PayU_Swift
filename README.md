@@ -5,7 +5,7 @@ Before proceeding further, make sure you have read this document
 To integrate with iOS SDK,download latest sample app from github using link : https://github.com/payu-intrepos/iOS-SDK-Sample-App/releases/tag/3.8.2
 Prerequisites:
 
-. Add libz.tbd libraries into your project (Project->Build Phases->Link Binary With Libraries)
+. Add libz.tbd libraries into your Target (Project->Build Phases->Link Binary With Libraries)
 
 
 . Add -ObjC and $(OTHER_LDFLAGS)in Other Linker Flags in Project Build Settings(Project->Build Settings->Other Linker Flags)
